@@ -1,0 +1,8 @@
+Ranking of Catagory by Sales = 
+RANKX(
+    ALL(Customer_TB[CustomerCategoryName]),
+    CALCULATE(
+        SUM(InvoiceData[Sales])),
+    ,
+    DESC
+)
