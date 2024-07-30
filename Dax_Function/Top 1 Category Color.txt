@@ -1,0 +1,4 @@
+Color Top 1 = 
+    IF(
+        [Ranking of Category by Sales] <= 1, "#154a1f","#e3e6e4"
+    )
