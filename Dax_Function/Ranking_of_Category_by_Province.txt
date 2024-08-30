@@ -1,0 +1,8 @@
+Ranking of Category by Province = 
+RANKX(
+    ALL(Customer_TB[Province]),
+    CALCULATE(
+        SUM(InvoiceData[Sales])),
+    ,
+    DESC
+)
