@@ -1,0 +1,5 @@
+Color of Sales YoY% = 
+    IF(
+        [Sales YoY%] < 0 && [Sales YoY%] <> -100, "#f26d8c"
+    )
+   
