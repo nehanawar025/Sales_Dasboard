@@ -1,4 +1,4 @@
-# Sales Dasboard using PowerBI
+# Superstore Sales Dasboard using PowerBI
 
 
 <b>You can watch the video here-></b> <br><br>
