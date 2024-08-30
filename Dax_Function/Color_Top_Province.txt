@@ -1,0 +1,4 @@
+Color Top Province = 
+    IF(
+        [Ranking of Category by Province] <= 1, "#154a1f","#e3e6e4"
+    )
